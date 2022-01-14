@@ -1,0 +1,186 @@
+
+section {
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: 30px repeat(13, 40px);
+    background-color: rgb(255, 255, 255);
+    max-width: 60%;
+}
+
+div{
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+#boite1 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite2 {
+    grid-column: 2/9;
+    grid-row: 1/2;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite3 {
+    grid-column: 9/17;
+    grid-row: 1/2;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite4 {
+    grid-column: 17/18;
+    grid-row: 1/8;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite5 {
+    grid-column: 18/19;
+    grid-row: 1/8;
+    background-image: url(../photo/citron.jpg);
+}
+#boite6 {
+    grid-column: 2/9;
+    grid-row: 2/4;
+    background-image: url(../photo/piscine.jpg);
+}
+#boite7 {
+    grid-column: 9/12;
+    grid-row: 2/4;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite8 {
+    grid-column: 12/17;
+    grid-row: 2/4;
+    background-image: url(../photo/piscine.jpg);
+
+}
+#boite9 {
+    grid-column: 1/2;
+    grid-row: 4/10;
+    background-image: url(../photo/carbon.jpg);
+}
+#boite10 {
+    grid-column: 2/4;
+    grid-row: 4/10;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite11 {
+    grid-column: 4/5;
+    grid-row: 4/14;
+    background-image: url(../photo/carbon.jpg);
+}
+#boite12 {
+    grid-column: 5/8;
+    grid-row: 4/8;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite13 {
+    grid-column: 8/9;
+    grid-row: 4/8;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite14 {
+    grid-column: 9/12;
+    grid-row: 4/8;
+    background-image: url(../photo/citron.jpg);
+}
+#boite15 {
+    grid-column: 12/16;
+    grid-row: 4/8;
+    background-image: url(../photo/framboise.jpg);
+}
+#boite16 {
+    grid-column: 16/17;
+    grid-row: 4/8;
+    background-image: url(../photo/framboise.jpg);
+}
+#boite17 {
+    grid-column: 1/2;
+    grid-row: 10/14;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite18 {
+    grid-column: 2/4;
+    grid-row: 10/14;
+    background-image: url(../photo/framboise.jpg);
+}
+#boite19 {
+    grid-column: 5/6;
+    grid-row: 8/10;
+    background-image: url(../photo/citron.jpg);
+}
+#boite20 {
+    grid-column: 6/9;
+    grid-row: 8/10;
+    background-image: url(../photo/framboise.jpg);
+}
+#boite21 {
+    grid-column: 9/12;
+    grid-row: 8/10;
+    background-image: url(../photo/piscine.jpg);
+}
+#boite22 {
+    grid-column: 12/16;
+    grid-row: 8/10;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite23 {
+    grid-column: 16/17;
+    grid-row: 8/10;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite24 {
+    grid-column: 17/19;
+    grid-row: 8/10;
+    background-image: url(../photo/carbon.jpg);
+}
+#boite25 {
+    grid-column: 1/5;
+    grid-row: 14/15;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite26 {
+    grid-column: 5/6;
+    grid-row: 10/15;
+    background-image: url(../photo/citron.jpg);
+}
+#boite27 {
+    grid-column: 6/11;
+    grid-row: 10/13;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite28 {
+    grid-column: 11/14;
+    grid-row: 10/13;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite29 {
+    grid-column: 14/16;
+    grid-row: 10/13;
+    background-image: url(../photo/piscine.jpg);
+}
+#boite30 {
+    grid-column: 16/17;
+    grid-row: 10/13;
+    background-image: url(../photo/citron.jpg);
+}
+#boite31 {
+    grid-column: 17/19;
+    grid-row: 10/13;
+    background-image: url(../photo/nuage.jpg);
+}
+#boite32 {
+    grid-column: 6/9;
+    grid-row: 13/15;
+    background-image: url(../photo/framboise.jpg);
+}
+#boite33 {
+    grid-column: 9/14;
+    grid-row: 13/15;
+    background-image: url(../photo/carbon.jpg);
+}
+#boite34 {
+    grid-column: 14/19;
+    grid-row: 13/15;
+    background-image: url(../photo/nuage.jpg);
+}
